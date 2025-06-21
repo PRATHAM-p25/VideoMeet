@@ -1,25 +1,26 @@
 {
   "name": "frontend",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@mui/icons-material": "^7.1.1",
-    "@mui/material": "^7.1.1",
+    "@mui/icons-material": "^7.1.2",
+    "@mui/material": "^7.1.2",
+    "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^14.6.1",
+    "@testing-library/user-event": "^13.5.0",
     "axios": "^1.10.0",
     "http-status": "^2.1.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.2",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "5.0.1",
     "socket.io-client": "^4.8.1",
-    "web-vitals": "^5.0.3"
-  }, 
-"scripts": {
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,6 +44,4 @@
       "last 1 safari version"
     ]
   }
-} 
-
-
+}
